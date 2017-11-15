@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PhamChess;
+using PhamChess.Helpers;
+using System;
 
 namespace ChessConsole
 {
@@ -10,7 +8,13 @@ namespace ChessConsole
     {
         private static void Main(string[] args)
         {
-            
+            var test = new ChessHelpers();
+            var list = test.GetColumnCoordinates(GameCoordinate.C2);
+            foreach (var coordinate in list)
+            {
+                Console.WriteLine(coordinate);
+            }
+            Console.ReadLine();
         }
     }
 }

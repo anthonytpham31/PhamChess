@@ -1,0 +1,6 @@
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\bin\Debug\PhamChess.dll
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\bin\Debug\PhamChess.pdb
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\obj\Debug\PhamChess.csprojResolveAssemblyReference.cache
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\obj\Debug\PhamChess.csproj.CoreCompileInputs.cache
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\obj\Debug\PhamChess.dll
+C:\Users\Anthony.Pham\Coding Projects\My Side Projects\PhamChess\PhamChess\PhamChess\obj\Debug\PhamChess.pdb
