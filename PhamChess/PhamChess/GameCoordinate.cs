@@ -1,6 +1,4 @@
-﻿
-
-namespace PhamChess
+﻿namespace PhamChess
 {
     public enum GameCoordinate
     {

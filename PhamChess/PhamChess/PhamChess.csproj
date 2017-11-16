@@ -41,14 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameCoordinate.cs" />
-    <Compile Include="Helpers\ChessHelpers.cs" />
-    <Compile Include="Helpers\EnumMagic.cs" />
-    <Compile Include="Movement\BishopMovement.cs" />
-    <Compile Include="Movement\KingMovement.cs" />
-    <Compile Include="Movement\KnightMovement.cs" />
-    <Compile Include="Movement\PawnMovement.cs" />
-    <Compile Include="Movement\QueenMovement.cs" />
-    <Compile Include="Movement\RookMovement.cs" />
+    <Compile Include="ChessMovements.cs" />
     <Compile Include="Pieces\Bishop.cs" />
     <Compile Include="Pieces\IGamePiece.cs" />
     <Compile Include="GameSpace.cs" />

@@ -1,5 +1,4 @@
 ﻿using PhamChess;
-using PhamChess.Helpers;
 using System;
 
 namespace ChessConsole
@@ -8,13 +7,31 @@ namespace ChessConsole
     {
         private static void Main(string[] args)
         {
-            var test = new ChessHelpers();
-            var list = test.GetColumnCoordinates(GameCoordinate.C2);
-            foreach (var coordinate in list)
+            var repeat = true;
+            while (repeat)
             {
-                Console.WriteLine(coordinate);
+                var coordString = Console.ReadLine()?.ToUpper();
+                var coordEnum = (GameCoordinate)Enum.Parse(typeof(GameCoordinate), coordString, false);
+                var testValue = coordEnum;
+                var test = new ChessMovements(testValue);
+                Console.WriteLine("Initial Value: " + (int)testValue);
+
+                var list = test.GetDiagonalCoordinates();
+                foreach (var coordinate in list)
+                {
+                    Console.WriteLine(coordinate);
+                }
+                repeat = AskToDoAgain();
             }
-            Console.ReadLine();
+
+        }
+
+        private static bool AskToDoAgain()
+        {
+            Console.WriteLine("Press Enter or Y to Test Again.");
+            var repeatInput = Console.ReadLine()?.ToLower();
+            Console.Clear();
+            return repeatInput == "y" || repeatInput == "";
         }
     }
 }
